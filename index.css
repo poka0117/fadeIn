@@ -1,0 +1,112 @@
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 全て共通のタイトル */
+.titile{
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+/* 1段目コンテンツcss */
+.slide_1_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50vh;
+}
+.slide_1{
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transform: translate(0,50px);
+    opacity: 0;
+}
+.slide_1-1{
+    background-color: rgb(201, 37, 37);
+}
+.slide_1-2{
+    background-color: rgb(21, 133, 11);
+}
+.slide_1-3{
+    background-color: rgb(100, 37, 201);
+}
+.slide_1_fade{
+    transition: 1s;
+    opacity: 1;
+    transform: translate(0,0);
+}
+/* 2段目コンテンツcss */
+.slide_2_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50vh;
+}
+.slide_2{
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transform: translate(0,50px);
+    opacity: 0;
+}
+.slide_2-1{
+    background-color: rgb(201, 37, 37);
+}
+.slide_2-2{
+    background-color: rgb(21, 133, 11);
+}
+.slide_2-3{
+    background-color: rgb(100, 37, 201);
+}
+.slide_2_fade{
+    transition: 1s;
+    opacity: 1;
+    transform: translate(0,0);
+}
+/* 3段目コンテンツcss */
+.slide_3_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50vh;
+}
+.slide_3{
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transform: translate(0,50px);
+    opacity: 0;
+}
+.slide_3-1{
+    background-color: rgb(201, 37, 37);
+}
+.slide_3-2{
+    background-color: rgb(21, 133, 11);
+}
+.slide_3-3{
+    background-color: rgb(100, 37, 201);
+}
+.slide_3_fade{
+    transition: 1s;
+    opacity: 1;
+    transform: translate(0,0);
+}
